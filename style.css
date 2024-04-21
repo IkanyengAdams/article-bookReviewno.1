@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.left-image {
+  float: left;
+  width: 45%; /* Adjust this value as needed */
+  margin-right: 5%; /* Adjust the spacing between the images */
+}
+
+.right-image {
+  float: right;
+  width: 45%; /* Adjust this value as needed */
+  margin-left: 5%; /* Adjust the spacing between the images */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
